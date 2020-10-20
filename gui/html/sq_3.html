@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="de" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div id="main_querry">
+
+    <div id=title>Zeige alle Rezepte die nicht das ausgewählte Allergen enthalten.</div>
+
+    <div class="seletionlabel">Wählen sie ein Allergen aus</div>
+
+    <form action="../php/sq_3.php" method="post">
+
+      <select id="recipes" class="selection" name="selection">
+        <option value="Laktose">Laktose</option>
+        <option value="Weizen">Weizen</option>
+        <option value="Gluten">Gluten</option>
+        <option value="Stärke">Stärke</option>
+        <option value="Karotte">Karotte</option>
+      </select>
+
+      <input type="submit" value="Zeigen">
+
+    </form>
+
+  </div>
+
+</body>
+
+</html>

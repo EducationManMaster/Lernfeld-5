@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="de" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div id="main_querry">
+
+    <div id=title> Zeige alle Zutaten die in einem Rezept enthalten sind.</div>
+
+    <div class="seletionlabel">Wählen sie ein Rezept aus</div>
+
+    <form action="../php/sq_1.php" method="post">
+
+      <select id="recipes" class="selection" name="selection">
+        <option value="Lachslasagne">Lachslasagne</option>
+        <option value="Thaicurry mit Hähnchen">Thaicurry mit Hähnchen</option>
+        <option value="Kartoffelsuppe">Kartoffelsuppe</option>
+        <option value="Milchreis mit Apfelmus">Milchreis mit Apfelmus</option>
+      </select>
+
+      <input type="submit" value="Zeigen">
+
+    </form>
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="de" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div id="main_querry">
+
+    <div id=title> Zeige alle Rezepte die in einer gewissen Kategorie enthalten sind.</div>
+
+    <div class="seletionlabel">Wählen sie ein Ernährungskategorie aus</div>
+
+    <form action="../php/sq_2.php" method="post">
+
+      <select id="recipes" class="selection" name="selection">
+        <option value="Vegan">Vegan</option>
+        <option value="Vegatarisch">Vegatarisch</option>
+        <option value="Frutarisch">Frutarisch</option>
+        <option value="ohne Gentechnik">ohne Gentechnik</option>
+        <option value="Laktosefrei">Laktosefrei</option>
+        <option value="Glutenfrei">Glutenfrei</option>
+        <option value="Low Carb">Low Carb</option>
+      </select>
+
+      <input type="submit" value="Zeigen">
+
+    </form>
+
+  </div>
+
+</body>
+
+</html>

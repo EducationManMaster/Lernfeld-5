@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="de" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div id="main_querry">
+
+    <div id=title>Zeige alle Rezepte die weniger als 5 Zutaten enthalten & eine bestimmte Ernährungskategorie erfüllen.</div>
+
+    <div class="seletionlabel">Wählen sie eine Ernärungskategorie aus</div>
+
+    <form action="../php/sq_10.php" method="post">
+
+      <select id="recipes" class="selection" name="selection">
+        <option value="1">Vegan</option>
+        <option value="2">Vegatarisch</option>
+        <option value="3">Frutarisch</option>
+        <option value="4">ohne Gentechnik</option>
+        <option value="5">Laktosefrei</option>
+        <option value="6">Glutenfrei</option>
+        <option value="7">Low Carb</option>
+      </select>
+
+      <input type="submit" value="Zeigen">
+
+    </form>
+
+  </div>
+
+</body>
+
+</html>
