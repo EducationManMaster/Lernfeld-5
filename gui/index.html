@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="de" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script type="text/javascript" src="script.js"></script>
+
+  <title>Kraut & Rüben</title>
+
+</head>
+
+<body>
+
+  <div id="head">
+
+    <div id="head_hamburger"></div>
+    <div id="head_text">DB: Kraut & Rüben</div>
+
+  </div>
+
+  <div id="menu">
+
+    <div class="menu_ponint mp_active" id="home" onclick="selectMenu(this.id)">
+
+      <div class="menu_ponint_icon" id="mp_home"></div>
+      <div class="menu_ponint_text">Startseite</div>
+
+    </div>
+
+    <div class="menu_ponint" id="searchqueries" onclick="selectMenu(this.id)">
+
+      <div class="menu_ponint_icon" id="mp_search"></div>
+      <div class="menu_ponint_text">Datenbank Suchen</div>
+
+    </div>
+
+    <div class="menu_ponint mp_subpoint" id="sq_1" onclick="selectMenu(this.id)">
+
+      <div class="menu_ponint_icon" id="mp_subpoint"></div>
+      <div class="menu_ponint_text">Zeige Zutaten in Rezept</div>
+
+    </div>
+
+    <div class="menu_ponint mp_subpoint" id="sq_2" onclick="selectMenu(this.id)">
+
+      <div class="menu_ponint_icon" id="mp_subpoint"></div>
+      <div class="menu_ponint_text">Zeige Rezepte in Ernärungskategorie</div>
+
+    </div>
+
+    <div class="menu_ponint mp_subpoint" id="sq_3" onclick="selectMenu(this.id)">
+
+      <div class="menu_ponint_icon" id="mp_subpoint"></div>
+      <div class="menu_ponint_text">Rezepte nach Allergen ausschließen</div>
+
+    </div>
+
+    <div class="menu_ponint mp_subpoint" id="sq_4" onclick="selectMenu(this.id)">
+
+      <div class="menu_ponint_icon" id="mp_subpoint"></div>
+      <div class="menu_ponint_text">Rezept nach Namen auswählen</div>
+
+    </div>
+
+    <div class="menu_ponint mp_subpoint" id="sq_5" onclick="selectMenu(this.id)">
+
+      <div class="menu_ponint_icon" id="mp_subpoint"></div>
+      <div class="menu_ponint_text">Zeige Rezepte die Zutat enthalten</div>
+
+    </div>
+
+    <div class="menu_ponint mp_subpoint" id="sq_6" onclick="selectMenu(this.id)">
+
+      <div class="menu_ponint_icon" id="mp_subpoint"></div>
+      <div class="menu_ponint_text">Druchsch. Nährstoffe pro Bestellung</div>
+
+    </div>
+
+    <div class="menu_ponint mp_subpoint" id="sq_7" onclick="selectMenu(this.id)">
+
+      <div class="menu_ponint_icon" id="mp_subpoint"></div>
+      <div class="menu_ponint_text">Zeige Zutaten nicht in Rezept</div>
+
+    </div>
+
+    <div class="menu_ponint mp_subpoint" id="sq_8" onclick="selectMenu(this.id)">
+
+      <div class="menu_ponint_icon" id="mp_subpoint"></div>
+      <div class="menu_ponint_text">Zeige Rezepte die Kalorien nicht überschreiten</div>
+
+    </div>
+
+    <div class="menu_ponint mp_subpoint" id="sq_9" onclick="selectMenu(this.id)">
+
+      <div class="menu_ponint_icon" id="mp_subpoint"></div>
+      <div class="menu_ponint_text">Zeige Rezepte unter 5 Zutaten</div>
+
+    </div>
+
+    <div class="menu_ponint mp_subpoint" id="sq_10" onclick="selectMenu(this.id)">
+
+      <div class="menu_ponint_icon" id="mp_subpoint"></div>
+      <div class="menu_ponint_text">Unter 5 Zutaten & in Kategorie</div>
+
+    </div>
+
+    <div class="menu_ponint" id="searchqueries" onclick="selectMenu(this.id)">
+
+      <div class="menu_ponint_icon"></div>
+      <div class="menu_ponint_text">Einstellungen</div>
+
+    </div>
+
+  </div>
+
+  <div id=main>
+
+    <iframe id="querry" src="html/home.html"></iframe>
+
+  </div>
+
+</body>
+
+</html>
