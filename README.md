@@ -16,7 +16,7 @@ Das Webinterface
 Das Webinterface kann einfach in den htdocs Ordner, des bereits installiere apache Servers eingefügt werden und dann über “domain.name/gui” aufgerufen werden. Die startseite des GUIs sieht folgendermaßen aus: 
 
 
-![alt text](https://raw.githubusercontent.com/EducationManMaster/Lernfeld-5/master/doc/GUI.png?token=AREXNOEG7RF3LKCBMOKZITK7R7MQE)
+![alt text](https://github.com/EducationManMaster/Lernfeld-5/blob/master/doc/GUI.png)
 
 Datenbank als ERD
 -----------------
