@@ -4,7 +4,7 @@ Dies ist die ausarbeitung des IT Lernfeld 05, an der ITECH, von Gruppe 7 (Floria
 
 Download repository:
 
-![alt text](https://github.com/EducationManMaster/Lernfeld-5/blob/master/doc/qr.png)
+![alt text](https://github.com/EducationManMaster/Lernfeld-5/blob/master/doc/qr_download.png)
 
 Software libary
 ---------------
