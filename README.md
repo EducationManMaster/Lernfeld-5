@@ -21,4 +21,4 @@ Das Webinterface kann einfach in den htdocs Ordner, des bereits installiere apac
 Datenbank als ERD
 -----------------
 
-![alt text](https://raw.githubusercontent.com/EducationManMaster/Lernfeld-5/master/doc/Kraut%20%26%20R%C3%BCben%20ERD.png?token=AREXNOD7CKLVBBERRIQ3ZVK7R7L7G)
+![alt text](https://github.com/EducationManMaster/Lernfeld-5/blob/master/doc/Kraut%20%26%20R%C3%BCben%20ERD.png)
